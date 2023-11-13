@@ -1,0 +1,17 @@
+<div class="container mt-4">
+  <div class="custom-box">
+    <h1 class="display-4 text-success">Stupid Coaching</h1>
+    <div class="p-3 mb-2 with-vertical-bar">
+    <p class="lead"><%= @question %></p>
+    <p>-You</p>
+    </div>
+
+    <div class="p-3 mb-2 bg-warning with-vertical-bar">
+    <p class="lead"><%= @answer %></p>
+    <p>-Your coach</p>
+    </div>
+
+    <%= link_to "Ask a new question", ask_path %>
+
+  </div>
+</div>

@@ -13,3 +13,42 @@
  *= require_tree .
  *= require_self
  */
+
+
+/* app/assets/stylesheets/application.css */
+
+/* Ajoute une couleur de fond et une marge au corps de la page */
+body {
+    background-color: #f8f9fa;
+    margin: 20px;
+}
+
+/* Style pour une boîte avec ombre et fond blanc */
+.custom-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style pour un bouton personnalisé avec une couleur de fond différente */
+.custom-button {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* Style pour un titre avec une couleur personnalisée */
+h1 {
+    color: #28a745;
+}
+
+.with-vertical-bar {
+    border-left: 5px solid gray;
+
+    padding-left: 10px;
+
+}
